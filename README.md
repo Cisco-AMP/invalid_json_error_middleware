@@ -16,6 +16,14 @@ Or install it yourself as:
 
     $ gem install invalid_json_error_middleware
 
+## Testing
+
+Simply run with rake
+
+```
+rake
+```
+
 ## Usage
 
 config/application.rb
@@ -35,7 +43,11 @@ end
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/Snick555/invalid_json_error_middleware. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at (invalid_json_error_middleware)[https://github.com/Cisco-AMP/invalid_json_error_middleware]. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+## Acknowledgements
+
+This project was based off of similar gems such as (rack_middleware_json_error_msg)[https://rubygems.org/gems/rack_middleware_json_error_msg] and (catch_json_parse_errors)[https://rubygems.org/gems/catch_json_parse_errors]. Additionally code and design was taken and modified from (Thoughbot's article here)[https://thoughtbot.com/blog/catching-json-parse-errors-with-custom-middleware].
 
 ## License
 
