@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email       = 'ivoloshy@cisco.com'
   s.files       = Dir['lib/invalid_json_error_middleware.rb', 'lib/invalid_json_error_middleware/*.rb', 'spec/*.rb']
   s.extra_rdoc_files = %w[README.md]
-  s.homepage    = 'https://github.com/Snick555/invalid_json_error_middleware'
+  s.homepage    = 'https://github.com/Cisco-AMP/invalid_json_error_middleware'
   s.license     = 'MIT'
 
   s.add_development_dependency 'rspec'
