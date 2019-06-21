@@ -1,4 +1,3 @@
-$LOAD_PATH << '../lib'
 require 'rack/test'
 require 'json'
 require 'invalid_json_error_middleware'
